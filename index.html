@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio Mefire Yianyinyi Joseph Ariel</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <p>MEFIRE YIANYINYI <span class="textvert">JOSEPH ARIEL</span></p>
+                <div class="first">
+                    <a href="#index" class="textvert">Acceuil</a>
+                    <a href="#a-propos">À propos</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="index" class="intro">
+                <div>
+                    <p>
+                    Je suis <span class="textvert">JOSEPH ARIEL</span>, Développeur en devenir<br>passionné par le web et le design !
+                    </p>
+                    <p><a href="#projets"><button class="btn">Voir mes projets</button></a></p>
+                </div>
+                <img src="images/imgp.jpg" alt="Code">
+            </section>
+            <section id="a-propos">
+                <div>
+                    <h2 class="textvert">À propos</h2>
+                </div>
+                <div class="propos">
+                    <div>
+                        <p>
+                            Je m'appelle MEFIRE YIANYINYI, passionné par la création de sites web modernes et interactifs. <br>
+                            Je suis actuellement étudiant en <span class="textvert">développement web</span>, et cherche à améliorer mes compétences en JavaScript, HTML et CSS. <br>
+                            J'adore transformer mes idées en projet concrets et expérimenter les nouvelles technologies.
+                        </p>
+                        <a href="documents/cv.pdf" target="_blank"><button class="btn">Télécharger mon CV</button></a>
+                    </div>
+                    <img src="images/perso.jpg" alt="MEFIRE YIANYINYI JOSEPH ARIEL" class="fire">
+                </div>
+                
+                
+            </section>
+            <section id="projets">
+                <h2 class="textvert">Mes Projets</h2>
+                <div class="javaS">
+                    <div title="Calcul de la Moyenne de nombres">
+                        <p class="haut">
+                            Un mini-jeu inter actif en JavaScript qui utilise des événements DOM.
+                        </p>
+                        <p class="bas">#html,#css,#js</p>
+                        <p><button class="btn" onclick="calM()">Voir</button></p>
+                    </div>
+                    <div title="Verifier l'âge">
+                        <p class="haut">
+                            Un mini-jeu inter actif en JavaScript qui utilise des événements DOM.
+                        </p>
+                        <p class="bas">#html,#css,#js</p>
+                        <p><button class="btn" onclick="verifierAge()">Voir</button></p>
+                    </div>
+                    <div title="Nombre pair ou impair">
+                        <p class="haut">
+                            Un mini-jeu inter actif en JavaScript qui utilise des événements DOM.
+                        </p>
+                        <p class="bas">#html,#css,#js</p>
+                        <p><button class="btn" onclick="verifierNombre()">Voir</button></p>
+                    </div>
+                </div>
+            </section>
+            <section id="competences">
+                <h3>Mes compétences</h3>
+                <div class="compo">
+                    <div class="skill">
+                        <h4>Hard Skills</h4>
+                        <p>HTML</p>
+                        <progress id="ress1" value="80" max="100"></progress>
+                        <p>CSS</p>
+                        <progress id="ress2" value="60" max="100"></progress>
+                        <p>JavaScript</p>
+                        <progress id="ress3" value="40" max="100"></progress>
+                        <p>VS Code</p>
+                        <progress id="ress4" value="60" max="100"></progress>
+                    </div>
+                    <div class="skill">
+                        <h4>Softs Skills</h4>
+                        <p>Gestion de projet</p>
+                        <progress id="progress1" value="40" max="100"></progress>
+                        <p>Résolution des problèmes</p>
+                        <progress id="progress2" value="40" max="100"></progress>
+                        <p>Adaptabilité</p>
+                        <progress id="progress3" value="70" max="100"></progress>
+                    </div>
+                    <div class="skill">
+                        <h4>Additional Skills</h4>
+                        <p>MS Word, Excel, Powerpoint</p>
+                        <progress id="ress1" value="90" max="100"></progress>
+                        <p>Intelligence Artificielle</p>
+                        <progress id="ress2" value="60" max="100"></progress>
+                        <p>Design graphique</p>
+                        <progress id="ress3" value="75" max="100"></progress>
+                        <p>Canva</p>
+                        <progress id="ress4" value="75" max="100"></progress>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="formu">
+                    <h1>
+                        Vous avez un <span class="textvert">projet en tête ?</span><br>
+                        N'hésitez pas à me <span class="textvert">contacter</span>
+                    </h1>
+                    <form method="get">
+                        <div class="pres">
+                            <div>
+                                <label for="prenom">Votre prénom</label><br>
+                                <input type="text" id="prenom" placeholder="John" required>
+                            </div>
+                            <div>
+                                <label for="nom">Votre nom</label><br>
+                                <input type="text" id="nom" placeholder="Romaliza" required>
+                            </div>
+                        </div>
+                        <div class="pros">
+                            <label for="sujet">Votre sujet</label>
+                            <input type="text" id="sujet" placeholder="Developpement d'un site vitrine" required>
+                            <input type="textarea" id="message" placeholder="Ecrivez votree message" class="big" required>
+                        </div>
+                        <div>
+                            <button type="submit" class="seul" onclick="contenu()">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Designed by <span class="textvert">JOSEPH ARIEL</span> with HTML CSS JS</p>
+            <p>Tous droits réservés - 2025</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
